@@ -142,12 +142,11 @@ p {
     display: none;
   }
 
-  .karate-about,
-  .weather-about,
-  .salmorejo-about {
+  .images-about {
+    flex-direction: column;
     max-width: 350px;
     padding: 10px 0;
-    margin: 0 auto;
+    margin: 20px 20px;
   }
 
   .contact-title {
