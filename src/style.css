@@ -1,0 +1,108 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  text-align: center;
+  margin-top: 60px;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  text-transform: capitalize;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+}
+
+.salmorejo {
+  width: 330px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.contact,
+.about {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.contact {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.about {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.contact-title {
+  font-size: 48px;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+  margin: 30px 0;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.mail-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
